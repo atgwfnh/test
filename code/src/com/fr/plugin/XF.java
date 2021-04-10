@@ -43,6 +43,7 @@ public class XF extends AbstractFunction {
 
 }
 
+/*
 @FunctionRecorder
 public class StringCat extends AbstractFunction {
 
@@ -58,3 +59,5 @@ public class StringCat extends AbstractFunction {
     }
 
 }
+
+*/
