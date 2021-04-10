@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+    <id>com.fr.plugin.XF</id>
+    <name><![CDATA[小数转分数插件]]></name>
+    <active>yes</active>
+    <version>1.0</version>
+    <env-version>10.0</env-version>
+    <jartime>2019-08-16</jartime>
+    <vendor>xing</vendor>
+    <description><![CDATA[将小数转换为分数。例如：输入XF(1.5),输出3/2]]></description>
+    
+    <change-notes><![CDATA[第一个版本]]></change-notes>
+  <main-package>com.fr.plugin.XF</main-package>
+  <function-recorder class="com.fr.plugin.XF"></function-recorder>
+  <extra-core>
+       <FunctionDefineProvider class="com.fr.plugin.XF" name="XF" description="输入小数，返回分数的函数"/>
+       <FunctionDefineProvider class="com.fr.plugin.StringCat" name="StringCat" description="连接字符串"/>
+  </extra-core>
+  <extra-designer>
+  </extra-designer>
+  <extra-chart-type>
+  </extra-chart-type>
+  <extra-chart-design>
+  </extra-chart-design>
+</plugin>
