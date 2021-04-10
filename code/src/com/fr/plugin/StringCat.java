@@ -4,6 +4,7 @@ import com.fr.plugin.transform.ExecuteFunctionRecord;
 import com.fr.plugin.transform.FunctionRecorder;
 import com.fr.script.AbstractFunction;
 
+/*
 @FunctionRecorder
 public class XF extends AbstractFunction {
     public static int getGongYueShu(int a, int b) {
@@ -43,7 +44,7 @@ public class XF extends AbstractFunction {
 
 }
 
-/*
+*/
 @FunctionRecorder
 public class StringCat extends AbstractFunction {
 
@@ -60,4 +61,3 @@ public class StringCat extends AbstractFunction {
 
 }
 
-*/
